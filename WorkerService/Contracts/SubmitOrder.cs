@@ -2,6 +2,6 @@ namespace Contracts
 {
     public record SubmitOrder
     {
-        public string Value { get; init; }
+        public string Number { get; init; }
     }
 }
